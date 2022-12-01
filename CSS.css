@@ -38,6 +38,7 @@ p{
 }
 
 .card{
+    padding-left: auto;
     border: none;
 }
 
@@ -45,4 +46,11 @@ p{
     margin: auto;
     padding: auto;
     padding-top: 5px;
+    margin-left: 3px;
+}
+
+.card-footer{
+    background-color: rgb(185, 185, 185);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
