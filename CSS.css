@@ -18,27 +18,28 @@ pre{
     text-align: left;
 }
 
-#btwh{
-    width: 250px;
-    height: 65px;
-    font-size: 25px;
-    border: none;
-}
+@media only screen and (max-width: 600px) {
+    #btwh {
+        width: auto;
+        height: auto;
+        font-size: clamp(5px, 2.5vw 25px);
+        border: none;
+    }
+  }
 
 h5{
-    font-size: 75px;
-}
-p{
-    font-size: 60px;
+    font-size: clamp(24px, 2.5vw ,75px);
 }
 
 #cbbody {
     background-color: transparent !important;
     border: none;
+    padding-bottom: 30% auto 0;
 }
 
 .card{
     padding-left: auto;
+    background-color: transparent !important;
     border: none;
 }
 
@@ -53,4 +54,13 @@ p{
     background-color: rgb(185, 185, 185);
     padding-top: 10rem;
     padding-bottom: 10rem;
+}
+
+#footpic{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.card-text{
+    font-size: clamp(12px, 2.5vw ,50px);
 }
