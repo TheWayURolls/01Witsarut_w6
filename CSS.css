@@ -1,66 +1,87 @@
-
 #column {
     margin-top: 100px;
     height: 100%;
     margin-bottom: 100px;
 }
 
-.text-about{
-    font-size: clamp(32px, 2.5vw ,50px);
+.text-about {
+    font-size: clamp(32px, 2.5vw, 50px);
 }
 
-pre{
-    font-size: clamp(12px, 2.5vw ,18px);
+pre {
+    font-size: clamp(12px, 2.5vw, 18px);
 }
 
-#bodytextonpic{
-    padding-top: 25rem;
+#bodytextonpic {
     text-align: left;
+    object-fit: cover;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-@media only screen and (max-width: 600px) {
-    #btwh {
-        width: auto;
-        height: auto;
-        font-size: clamp(5px, 2.5vw 25px);
-        border: none;
-    }
-  }
+#btwh {
+    font-size: clamp(0.50px, 1vw, 50px);
+    border: none;
+    height: 350%;
+    letter-spacing: 0.5px;
+    line-height: 350%;
+    padding: 0px 1rem;
+    pointer-events: all;
+    position: relative;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 20%;
+}
 
-h5{
-    font-size: clamp(24px, 2.5vw ,75px);
+h5 {
+    font-size: clamp(24px, 2.5vw, 80px);
+    margin: 0;
 }
 
 #cbbody {
     background-color: transparent !important;
     border: none;
-    padding-bottom: 30% auto 0;
+    object-fit: cover;
 }
 
-.card{
+.card {
     padding-left: auto;
     background-color: transparent !important;
     border: none;
 }
 
-.card-body #textabout{
+.card-body #textabout {
     margin: auto;
     padding: auto;
     padding-top: 5px;
     margin-left: 3px;
 }
 
-.card-footer{
+.card-footer {
     background-color: rgb(185, 185, 185);
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-#footpic{
+#footpic {
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
-.card-text{
-    font-size: clamp(12px, 2.5vw ,50px);
+.card-text {
+    font-size: clamp(12px, 2.5vw, 50px);
+    padding-bottom: 0;
+}
+
+.card-body {
+    object-fit: cover;
+}
+
+p{
+    margin: 0;
+}
+
+#bodytextonpic{
+    margin-bottom: 20%;
 }
