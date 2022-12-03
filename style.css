@@ -1,0 +1,64 @@
+.card {
+    text-align: center;
+
+}
+
+p{
+    margin: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pf{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: transparent !important;
+    border: none;
+}
+
+#textsize{
+    font-size: clamp(12px, 2.5vw, 50px);
+}
+
+h4{
+    font-size: clamp(12px, 2.5vw, 64px);
+}
+
+#contect{
+    background-color: #9F9F9F;
+    padding-bottom: 6%;
+}
+
+pre{
+    font-size: clamp(2px, 2.5vw, 20px);
+    padding-top: 15px;
+}
+
+.hr{
+    border: 30px solid rgb(0, 0, 0);
+}
+
+#contec-title{
+    margin-bottom: 3%;
+}
+
+#Aboutme{
+    padding-bottom: 6%;
+}
+
+#text-p{
+    font-size: clamp(2px, 2.5vw, 20px);
+}
+
+#text-a{
+    text-align: left;
+}
+
+#pic-l{
+    float: right;
+}
