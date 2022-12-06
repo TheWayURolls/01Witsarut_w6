@@ -4,6 +4,7 @@
 
 p{
     margin: 0;
+    font-size: clamp(2px, 2.5vw, 20px);
 }
 
 .center {
@@ -64,6 +65,6 @@ pre{
 
 #icon {
     position: absolute;
-    height: 10%;
-    width: 10%;
+    height: 50%;
+    width: 50%;
 }
