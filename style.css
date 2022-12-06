@@ -37,6 +37,7 @@ h4{
 pre{
     font-size: clamp(2px, 2.5vw, 20px);
     padding-top: 15px;
+    object-fit: cover;
 }
 
 .hr{
@@ -64,7 +65,21 @@ pre{
 }
 
 #icon {
-    position: absolute;
-    height: 50%;
-    width: 50%;
+    position: center;
+    height: 20%;
+    width: 20%;
+}
+
+h2{
+    object-fit: cover;
+}
+
+#contec-title-ex{
+    margin-bottom: 0%;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }

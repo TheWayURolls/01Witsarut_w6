@@ -85,3 +85,13 @@ p{
 #bodytextonpic{
     margin-bottom: 20%;
 }
+
+#textabout{
+    padding-left: 15%;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
